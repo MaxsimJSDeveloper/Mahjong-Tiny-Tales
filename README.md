@@ -1,1 +1,2 @@
-# Mahjong-Tiny-Tales
+# Vanilla-vite-template
+

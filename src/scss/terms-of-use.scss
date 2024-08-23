@@ -1,0 +1,194 @@
+.header-titel {
+  visibility: hidden;
+  position: absolute;
+}
+
+.hero {
+  padding-top: 80px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 30px;
+}
+
+.all-section {
+  padding-top: 30px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 30px;
+}
+
+.green-section {
+  background: #bad64a;
+}
+
+.terms-of-use-parag {
+  color: #20170d;
+  /* desktop/body */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.32;
+}
+
+.terms-of-use-title {
+  color: #492611;
+  font-family: 'Mochiy Pop P One';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.48px;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.terms-of-use-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bg-leaves-top {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 9;
+}
+
+.bg-leaves-left {
+  position: absolute;
+  left: 0;
+  top: 59px;
+  bottom: 145px;
+  z-index: 9;
+}
+
+.bg-leaves-right {
+  position: absolute;
+  right: 0;
+  top: 59px;
+  bottom: 180px;
+  z-index: 9;
+}
+
+.yellov-section {
+  border-top: 8px dashed #972a03;
+  border-bottom: 8px dashed #972a03;
+  background: #ffff70;
+}
+
+.license-to-use-the-service-title {
+  margin-bottom: 24px;
+  color: var#492611;
+  /* mobile/h2 */
+  font-family: 'Mochiy Pop P One';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.48px;
+  text-transform: capitalize;
+}
+
+.container-license-to-use-the-service {
+  margin-bottom: 60px;
+}
+
+.license-to-use-the-service-parag {
+  color: #20170d;
+  /* mobile/body */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.32; /* 21.12px */
+}
+
+.description-of-service {
+  background: #bad64a;
+}
+
+.ogange-section {
+  border-top: 8px dashed #972a03;
+  border-bottom: 8px dashed #972a03;
+  background: #f8a32e;
+}
+
+.last-section {
+  padding-top: 30px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 160px;
+    padding-bottom: 60px;
+  }
+
+  .all-section {
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .terms-of-use-title {
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-bottom: 48px;
+  }
+
+  .terms-of-use-container {
+    gap: 24px;
+  }
+
+  .terms-of-use-parag {
+    font-size: 20px;
+  }
+
+  .bg-leaves-top {
+    left: 190px;
+    right: 190px;
+  }
+
+  .bg-leaves-left {
+    top: 160px;
+    bottom: 211px;
+  }
+
+  .bg-leaves-right {
+    top: 160px;
+    bottom: 211px;
+  }
+
+  .license-to-use-the-service-title {
+    margin-bottom: 48px;
+    font-size: 40px;
+    letter-spacing: 0.8px;
+    line-height: normal;
+  }
+
+  .container-license-to-use-the-service {
+    margin-bottom: 120px;
+  }
+
+  .license-to-use-the-service-parag {
+    font-size: 20px;
+  }
+
+  .last-section {
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+}

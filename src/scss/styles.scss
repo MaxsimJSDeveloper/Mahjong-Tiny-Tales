@@ -24,7 +24,7 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 1439px) {
+@media screen and (min-width: 900px) {
   .container {
     padding-left: 80px;
     padding-right: 80px;
@@ -32,6 +32,10 @@
 
   .section-indentation {
     padding: 60px 0;
+  }
+
+  :root {
+    font-size: 20px;
   }
 }
 

@@ -1,0 +1,44 @@
+.privacy-policy {
+  background-color: $design-bg-green;
+}
+
+.privacy-policy-title {
+  font-family: $second-family;
+  font-size: 24px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: $design-brown;
+  margin-bottom: 24px;
+}
+
+.privacy-policy-wrap {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.marketing {
+  background-color: $design-bg-light-orange;
+}
+
+.what {
+  background: $design-bg-light-yellow;
+}
+
+@media screen and (min-width: 900px) {
+  .privacy-policy-title {
+    font-size: 40px;
+    margin-bottom: 48px;
+  }
+
+  .privacy-policy-wrap {
+    gap: 30px;
+  }
+}
+
+// .block {
+//   width: 200px;
+//   height: 10px;
+//   background-color: inherit;
+//   background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' style='fill: none; stroke: red; stroke-width: 4; stroke-dasharray: 5 20'/></svg>");
+// }

@@ -1,0 +1,55 @@
+:root {
+  font-family: $font-family;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: $regular;
+  letter-spacing: 0.02em;
+
+  color: $design-dark-brown;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.section-indentation {
+  padding: 30px 0;
+}
+
+.container {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .section-indentation {
+    padding: 60px 0;
+  }
+
+  :root {
+    font-size: 20px;
+  }
+}
+
+@import './fonts.scss';
+@import './header.scss';
+@import './main.scss';
+@import './reviews.scss';
+@import './about-the-game.scss';
+@import './benefits.scss';
+@import './gallery.scss';
+@import './how-to-play.scss';
+@import './overview.scss';
+@import './footer.scss';
+@import './disclaimer.scss';
+
+@import './privacy-policy.scss';
+@import './terms-of-use.scss';

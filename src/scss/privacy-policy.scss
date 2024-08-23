@@ -1,5 +1,25 @@
 .privacy-policy {
   background-color: $design-bg-green;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; // Линия всегда будет внизу
+
+  .line-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .line {
+    position: absolute;
+    top: 26px;
+    z-index: 10;
+    width: 100%; // Фиксированная ширина линии
+    height: 8px; // Высота линии
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="320" height="8"><line x1="-20" y1="4" x2="320" y2="4" stroke="%23972A03" stroke-width="8" stroke-dasharray="40%2040"/></svg>');
+  }
 }
 
 .privacy-policy-title {
@@ -34,11 +54,10 @@
   .privacy-policy-wrap {
     gap: 30px;
   }
-}
 
-// .block {
-//   width: 200px;
-//   height: 10px;
-//   background-color: inherit;
-//   background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' style='fill: none; stroke: red; stroke-width: 4; stroke-dasharray: 5 20'/></svg>");
-// }
+  .privacy-policy {
+    .line {
+      top: 56px;
+    }
+  }
+}

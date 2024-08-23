@@ -3,6 +3,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: $regular;
+  letter-spacing: 0.02em;
 
   color: $design-dark-brown;
 
@@ -20,12 +21,13 @@
 .container {
   padding: 0 20px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 1439px) {
   .container {
-    padding: 0 80px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
   .section-indentation {
@@ -44,3 +46,6 @@
 @import './overview.scss';
 @import './footer.scss';
 @import './disclaimer.scss';
+
+@import './privacy-policy.scss';
+@import './terms-of-use.scss';

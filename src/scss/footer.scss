@@ -1,0 +1,32 @@
+.footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 12px;
+  background-color: $design-bg-dark-orange;
+
+  .footer-nav-list {
+    display: flex;
+
+    .footer-nav-item {
+      margin-right: 6px;
+
+      &.separator:after {
+        content: '|';
+        margin-left: 6px;
+      }
+    }
+  }
+
+  .some-info {
+    display: flex;
+
+    .info {
+      margin-right: 6px;
+      &.separator:after {
+        content: '|';
+        margin-left: 6px;
+      }
+    }
+  }
+}

@@ -29,10 +29,26 @@
   flex-direction: column;
 }
 
+.line-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: 26px;
+  z-index: 10;
+  width: 100%; // Фиксированная ширина линии
+  height: 8px; // Высота линии
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="320" height="8"><line x1="-20" y1="4" x2="320" y2="4" stroke="%23972A03" stroke-width="8" stroke-dasharray="40%2040"/></svg>');
+}
+
 @media screen and (min-width: 900px) {
   .container {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 
   .section-indentation {
@@ -42,6 +58,10 @@
   .first-section {
     padding-top: 160px;
     padding-bottom: 60px;
+  }
+
+  .line {
+    top: 56px;
   }
 
   :root {

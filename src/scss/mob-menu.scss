@@ -15,6 +15,7 @@
   background: #fff9b8;
   /* card shadow mobile */
   box-shadow: 0px 4px 0px 0px #937234;
+  z-index: 999;
 }
 
 .mobile-menu-div {
@@ -96,7 +97,7 @@
   color: #937234;
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1024px) {
   .mobile-menu {
     position: absolute;
     visibility: hidden;

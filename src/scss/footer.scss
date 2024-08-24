@@ -18,6 +18,7 @@
 
   .some-info {
     display: flex;
+    color: $design-dark-brown;
   }
 }
 
@@ -51,8 +52,4 @@
       border-radius: 2px;
     }
   }
-}
-
-.accent-color {
-  color: $design-bg-light;
 }

@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+.about-the-game-text {
+  padding-bottom: 28px;
+}
+
 @media screen and (min-width: 900px) {
   .about-the-game-wrap {
     display: flex;
@@ -27,5 +31,9 @@
   .about-the-game-info {
     width: 486px;
     height: 464px;
+  }
+
+  .about-the-game-text {
+    padding-bottom: 30px;
   }
 }

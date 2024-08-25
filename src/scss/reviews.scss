@@ -2,9 +2,13 @@
   background-color: $design-bg-dark-green;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
 .perent {
   display: flex;
-  justify-content: center;
   margin: 0 auto;
   height: 256px;
   max-width: 280px;
@@ -19,6 +23,18 @@
 }
 
 .second-v {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.first-vl {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.second-vl {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -62,7 +78,6 @@
 
 .perent-h {
   display: flex;
-  justify-content: center;
   margin: 0 auto;
   height: 280px;
   max-width: 280px;
@@ -105,4 +120,77 @@
   position: absolute;
   bottom: 0;
   left: -70px;
+}
+
+@media screen and (min-width: 1360px) {
+  .cards {
+    display: flex;
+    flex-direction: row;
+    height: 384px;
+  }
+
+  .perent {
+    height: 384px;
+    max-width: 384px;
+    margin-bottom: 0;
+  }
+
+  .icon-reviews-v {
+    width: 180px;
+    height: 258px;
+  }
+
+  .reviews-info {
+    width: 180px;
+  }
+
+  .reviews-subtitle {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .reviews-info-text {
+    width: 132px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .perent-h {
+    height: 384px;
+    max-width: 384px;
+    margin-bottom: 0;
+  }
+
+  .icon-reviews-h {
+    width: 282px;
+    height: 180px;
+  }
+
+  .reviews-info-text-h {
+    width: 234px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .first-v {
+    margin-right: 32px;
+  }
+
+  .first-h {
+    margin-bottom: 32px;
+  }
+
+  .second-h {
+    margin-right: 32px;
+  }
+
+  .second-vl {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+  }
+
+  .reviews-info-h {
+    right: 10px;
+  }
 }

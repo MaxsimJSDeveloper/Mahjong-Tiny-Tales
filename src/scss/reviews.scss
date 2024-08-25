@@ -2,7 +2,29 @@
   background-color: $design-bg-dark-green;
 }
 
-.icon-reviews {
+.perent {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 256px;
+  max-width: 280px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.first-v {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.second-v {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.icon-reviews-v {
   width: 132px;
   height: 180px;
 }
@@ -17,7 +39,7 @@
   align-items: center;
   position: absolute;
   z-index: 1;
-  top: 20px;
+  top: 10px;
   width: 132px;
 }
 
@@ -36,4 +58,51 @@
   line-height: 1.33333;
   color: $design-dark-brown;
   width: 108px;
+}
+
+.perent-h {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 280px;
+  max-width: 280px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.icon-reviews-h {
+  width: 202px;
+  height: 128px;
+}
+
+.reviews-info-text-h {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33333;
+  color: $design-dark-brown;
+  width: 162px;
+}
+
+.reviews-info-h {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 15px;
+  right: -20px;
+  width: 260px;
+}
+
+.first-h {
+  position: absolute;
+  top: 0;
+  right: -70px;
+}
+
+.second-h {
+  position: absolute;
+  bottom: 0;
+  left: -70px;
 }

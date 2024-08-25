@@ -120,7 +120,7 @@
   left: -72px;
 }
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1430px) {
   .cards {
     display: flex;
     flex-direction: row;
@@ -171,13 +171,13 @@
   }
 
   .first-v {
-    right: 30px;
+    right: 15px;
   }
 
   .second-vl {
     position: absolute;
     bottom: 0;
-    left: 30px;
+    left: 15px;
   }
 
   .reviews-info-h {

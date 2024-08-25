@@ -5,7 +5,6 @@
 .overview-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .overview-list-item {
@@ -27,7 +26,15 @@
     display: none;
   }
 
+  .overview-list {
+    align-items: center;
+  }
+
   .img-overview-second {
+    display: none;
+  }
+
+  .overview-google-play-btn {
     display: none;
   }
 }
@@ -49,5 +56,24 @@
 
   .overview-list-text {
     padding: 20px;
+  }
+
+  .overview-google-play-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $design-beige;
+    margin-bottom: 28px;
+    gap: 10px;
+    box-shadow: 0 8px 0 0 $design-light-brown;
+    border: 1.5px solid $design-dark-brown;
+    border-radius: 9px;
+    width: 180px;
+    height: 60px;
+
+    &:hover {
+      background: $design-beige-hover;
+    }
+    margin: 0 auto;
   }
 }

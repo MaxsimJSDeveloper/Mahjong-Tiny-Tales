@@ -53,6 +53,11 @@
   position: relative;
 }
 
+.conteiner-icon {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 900px) {
   .benefits-section {
     padding-top: 60px;
@@ -62,11 +67,6 @@
   .benefits-list {
     margin-top: 52px;
     flex-wrap: nowrap;
-  }
-
-  .conteiner-icon {
-    display: flex;
-    justify-content: center;
   }
 
   .icon-benefits {

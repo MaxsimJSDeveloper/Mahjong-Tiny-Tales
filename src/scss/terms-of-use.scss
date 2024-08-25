@@ -1,3 +1,15 @@
+.main {
+  position: relative;
+}
+
+.terms-of-use {
+  background-color: $design-bg-green;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 .header-titel {
   visibility: hidden;
   position: absolute;
@@ -12,8 +24,6 @@
 
 .all-section {
   padding-top: 30px;
-  padding-left: 4px;
-  padding-right: 4px;
   padding-bottom: 30px;
 }
 
@@ -51,33 +61,40 @@
 
 .bg-leaves-top {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0px;
   right: 0px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   z-index: 9;
 }
 
 .bg-leaves-left {
   position: absolute;
-  left: 0;
-  top: 59px;
-  bottom: 145px;
+  left: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
   z-index: 9;
 }
 
 .bg-leaves-right {
   position: absolute;
-  right: 0;
-  top: 59px;
-  bottom: 180px;
+  right: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
   z-index: 9;
 }
 
+.bg-leaves-bottom {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 9;
+}
 .yellov-section {
-  border-top: 8px dashed #972a03;
-  border-bottom: 8px dashed #972a03;
   background: #ffff70;
 }
 
@@ -113,29 +130,21 @@
 }
 
 .ogange-section {
-  border-top: 8px dashed #972a03;
-  border-bottom: 8px dashed #972a03;
   background: #f8a32e;
 }
 
 .last-section {
   padding-top: 30px;
-  padding-left: 4px;
-  padding-right: 4px;
   padding-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding-left: 56px;
-    padding-right: 56px;
     padding-top: 160px;
     padding-bottom: 60px;
   }
 
   .all-section {
-    padding-left: 56px;
-    padding-right: 56px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -186,8 +195,6 @@
   }
 
   .last-section {
-    padding-left: 56px;
-    padding-right: 56px;
     padding-top: 60px;
     padding-bottom: 120px;
   }

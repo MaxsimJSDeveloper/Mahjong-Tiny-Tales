@@ -1,5 +1,5 @@
 <section class="overview section-indentation">
-  <div class="container">
+  <div class="container jutisfy">
     <ul class="overview-list">
       <li class="overview-list-item">
         <p class="overview-list-text text-privacy-policy">
@@ -58,21 +58,57 @@
         </div>
       </li>
     </ul>
-    <a
-      href="https://play.google.com/store/apps/details?id=air.com.qublix.mahjong"
-      target="_blank"
-      class="overview-google-play-btn"
-    >
-      <svg class="google-play-icon">
-        <use href="./img/sprite.svg#icon-playstore"></use>
-      </svg>
-      <div class="google-play-wrap">
-        <p class="google-play-btn-text">GET IT ON</p>
-        <svg class="google-play-btn-icon">
-          <use href="./img/sprite.svg#google-play"></use>
-        </svg>
+    <div class="overview-btn-wrap">
+      <div class="img-mobile-overview-perent">
+        <picture>
+          <source
+            srcset="
+              ./img/overview/bg-left-mobile.webp    1x,
+              ./img/overview/bg-left-mobile@2x.webp 2x
+            "
+            media="(max-width: 900px)"
+          />
+          <img
+            class="img-overview-left"
+            src="./img/overview/bg-left-mobile.webp"
+            alt="overview-second"
+            loading="lazy"
+          />
+        </picture>
       </div>
-    </a>
+      <a
+        href="https://play.google.com/store/apps/details?id=air.com.qublix.mahjong"
+        target="_blank"
+        class="overview-google-play-btn google-play-btn"
+      >
+        <svg class="google-play-icon">
+          <use href="./img/sprite.svg#icon-playstore"></use>
+        </svg>
+        <div class="google-play-wrap">
+          <p class="google-play-btn-text">GET IT ON</p>
+          <svg class="google-play-btn-icon">
+            <use href="./img/sprite.svg#google-play"></use>
+          </svg>
+        </div>
+      </a>
+      <div class="img-mobile-overview-perent">
+        <picture>
+          <source
+            srcset="
+              ./img/overview/bg-right-mobile.webp    1x,
+              ./img/overview/bg-right-mobile@2x.webp 2x
+            "
+            media="(max-width: 900px)"
+          />
+          <img
+            class="img-overview-right"
+            src="./img/overview/bg-right-mobile.webp"
+            alt="overview-second"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
   </div>
 
   <div class="line-container">

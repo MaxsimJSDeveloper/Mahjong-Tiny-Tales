@@ -1,3 +1,7 @@
+.jutisfy {
+  justify-content: center;
+}
+
 .overview {
   background-color: $design-bg-green;
 }
@@ -21,7 +25,11 @@
   border-radius: 16px;
 }
 
-@media screen and (max-width: 1259px) {
+.overview-google-play-btn {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1260px) {
   .img-overview-first {
     display: none;
   }
@@ -34,12 +42,43 @@
     display: none;
   }
 
+  .overview-btn-wrap {
+    height: 95px;
+    min-width: 280px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+
   .overview-google-play-btn {
-    display: none;
+    margin: 0 30px;
+  }
+
+  .img-mobile-overview-perent {
+    width: 42px;
+    position: relative;
+  }
+
+  .img-overview-left {
+    position: absolute;
+    top: 100%;
+  }
+
+  .img-overview-right {
+    position: absolute;
+    bottom: 100%;
   }
 }
 
 @media screen and (min-width: 1260px) {
+  .img-overview-right {
+    display: none;
+  }
+
+  .img-overview-left {
+    display: none;
+  }
+
   .overview-list-item:last-child {
     flex-direction: row-reverse;
     gap: 194px;
@@ -56,24 +95,5 @@
 
   .overview-list-text {
     padding: 20px;
-  }
-
-  .overview-google-play-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: $design-beige;
-    margin-bottom: 28px;
-    gap: 10px;
-    box-shadow: 0 8px 0 0 $design-light-brown;
-    border: 1.5px solid $design-dark-brown;
-    border-radius: 9px;
-    width: 180px;
-    height: 60px;
-
-    &:hover {
-      background: $design-beige-hover;
-    }
-    margin: 0 auto;
   }
 }

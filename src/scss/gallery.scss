@@ -1,0 +1,139 @@
+.gallery {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #f8a32e;
+}
+
+.title-gallery {
+  color: #492611;
+  /* mobile/h2 */
+  font-family: 'Mochiy Pop P One';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.48px;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.gallery .swiper {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.conteiner-navigat .button-prev,
+.conteiner-navigat .button-next {
+  visibility: hidden;
+  position: absolute;
+}
+
+.icon-gallery {
+  fill: none;
+  stroke: #20170d;
+}
+
+#paginat-gallery {
+  bottom: var(--swiper-pagination-bottom, 0px);
+}
+
+.conteiner-navigat {
+  display: flex;
+  margin-top: 10px;
+  margin-top: 12px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  position: relative;
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteiner-navigat .swiper-pagination {
+  position: relative;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  border-radius: 2px;
+  background: #492611;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: #937234;
+  width: 12px;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  top: 0;
+  bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .title-gallery {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-bottom: 48px;
+  }
+  .conteiner-navigat {
+    width: 156px;
+    margin-top: 24px;
+  }
+
+  .conteiner-navigat .button-prev,
+  .conteiner-navigat .button-next {
+    visibility: visible;
+    position: relative;
+    padding: 12px 12px 12px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #fff9b8;
+    /* card shadow desktop */
+    box-shadow: 0px 8px 0px 0px #937234;
+  }
+
+  .button-prev:hover,
+  .button-next:hover,
+  .button-prev:focus,
+  .button-next:focus {
+    background: #ffef4d;
+  }
+
+  .button-prev:active,
+  .button-next:active {
+    background: #fff58b;
+  }
+
+  #paginat-gallery {
+    margin-right: 8px;
+    margin-left: 8px;
+    bottom: var(--swiper-pagination-bottom, 0px);
+  }
+
+  .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+  }
+
+  .swiper-pagination .swiper-pagination-bullet-active {
+    background: #937234;
+    width: 24px;
+  }
+
+  .gallery {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #f8a32e;
+  }
+
+  .gallery .swiper {
+    padding-bottom: 9px;
+  }
+}

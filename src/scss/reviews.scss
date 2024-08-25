@@ -11,7 +11,6 @@
   display: flex;
   margin: 0 auto;
   height: 256px;
-  max-width: 280px;
   position: relative;
   margin-bottom: 20px;
 }
@@ -80,7 +79,6 @@
   display: flex;
   margin: 0 auto;
   height: 280px;
-  max-width: 280px;
   position: relative;
   margin-bottom: 20px;
 }
@@ -173,15 +171,7 @@
   }
 
   .first-v {
-    margin-right: 32px;
-  }
-
-  .first-h {
-    margin-bottom: 32px;
-  }
-
-  .second-h {
-    margin-right: 32px;
+    right: 30px;
   }
 
   .second-vl {

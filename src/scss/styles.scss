@@ -54,7 +54,57 @@
   margin-bottom: 24px;
 }
 
+.main::after,
+.main::before {
+  content: '';
+  position: fixed;
+  top: 20px;
+  bottom: 20px;
+  width: 8%;
+  background-size: cover;
+  z-index: 9;
+}
+
+.main::before {
+  left: 0;
+  background-image: url('../img/bg-leaves-left-page-2.png');
+}
+
+.main::after {
+  right: 0;
+  background-image: url('../img/bg-leaves-right-desk.png');
+}
+
 @media screen and (min-width: 900px) {
+  .bg-leaves-top {
+    width: 80%;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main::after,
+  .main::before {
+    content: '';
+    position: absolute;
+    top: 160px;
+    bottom: 151px;
+    width: 3%;
+    background-size: cover;
+    z-index: 2;
+  }
+
+  .main::before {
+    left: 0;
+    background-image: url('../img/bg-leaves-left-desk.png');
+  }
+
+  .main::after {
+    right: 0;
+    background-image: url('../img/bg-leaves-right-desk.png');
+  }
+
   .container {
     padding-left: 120px;
     padding-right: 120px;

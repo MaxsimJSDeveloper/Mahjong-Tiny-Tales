@@ -54,25 +54,41 @@
   margin-bottom: 24px;
 }
 
+.main {
+  width: 100%;
+}
+
 .main::after,
 .main::before {
   content: '';
-  position: fixed;
+  position: absolute;
   top: 20px;
   bottom: 20px;
-  width: 8%;
-  background-size: cover;
+  width: 30%;
+  background-size: auto;
+  background-repeat: repeat-y;
   z-index: 9;
 }
 
 .main::before {
   left: 0;
-  background-image: url('../img/bg-leaves-left-page-2.png');
+  background-image: url('../img/terms-of-use/bg-leaves-left-2-mob.png');
 }
 
 .main::after {
-  right: 0;
-  background-image: url('../img/bg-leaves-right-desk.png');
+  background-size: cover;
+  width: 8%;
+  right: 0px;
+  background-image: url('../img/terms-of-use/bg-leaves-right-2-mob.png');
+}
+
+.bg-leaves-top {
+  position: absolute;
+  width: 80%;
+  left: 1px;
+  right: 1px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 900px) {

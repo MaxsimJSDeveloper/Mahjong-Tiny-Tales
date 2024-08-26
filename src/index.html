@@ -16,7 +16,37 @@
       <load src="./partials/header.html" />
     </header>
 
-    <main>
+    <main class="main">
+      <picture>
+        <source
+          srcset="./img/bg-leaves-top-mob.png 1x"
+          media="(max-width:1023px)"
+        />
+        <source
+          srcset="./img/bg-leaves-top-desk.png 1x"
+          media="(min-width:1024px)"
+        />
+        <img
+          class="bg-leaves-top"
+          src="./img/bg-leaves-top-mob.png"
+          alt="decore"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="./img/bg-leaves-bottom-mob.png 1x"
+          media="(max-width:767px)"
+        />
+        <source
+          srcset="./img/bg-leaves-bottom-desk.png 1x"
+          media="(min-width:768px)"
+        />
+        <img
+          class="bg-leaves-bottom"
+          src="./img/bg-leaves-bottom-mob.png"
+          alt="decore"
+        />
+      </picture>
       <load src="./partials/main.html" />
       <load src="./partials/reviews.html" />
       <load src="./partials/about-the-game.html" />

@@ -62,9 +62,6 @@
 
 .bg-leaves-top {
   position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
   margin-right: auto;
   margin-left: auto;
   z-index: 9;
@@ -138,6 +135,27 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .main::after,
+  .main::before {
+    content: '';
+    position: absolute;
+    top: 160px;
+    bottom: 151px;
+    width: 4%;
+    background-size: cover;
+    z-index: 2;
+  }
+
+  .main::before {
+    left: 0;
+    background-image: url('../img/bg-leaves-left-desk.png');
+  }
+
+  .main::after {
+    right: 0;
+    background-image: url('../img/bg-leaves-right-desk.png');
+  }
+
   .hero {
     padding-top: 160px;
     padding-bottom: 60px;
@@ -163,24 +181,6 @@
     font-size: 20px;
   }
 
-  .bg-leaves-top {
-    left: 0px;
-    right: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .bg-leaves-left {
-    height: 90%;
-    top: 160px;
-    bottom: 211px;
-  }
-
-  .bg-leaves-right {
-    height: 90%;
-    top: 160px;
-    bottom: 211px;
-  }
 
   .license-to-use-the-service-title {
     margin-bottom: 48px;

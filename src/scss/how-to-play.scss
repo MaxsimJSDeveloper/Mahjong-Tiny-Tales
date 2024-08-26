@@ -1,0 +1,95 @@
+.how-to-play {
+  background: #76a321;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.list-conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+
+.how-to-play-title {
+  color: #492611;
+  /* mobile/h2 */
+  font-family: 'Mochiy Pop P One';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.48px;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.list-how-to-play {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.list-how-to-play li {
+  list-style-type: disc;
+}
+
+.how-to-play-pag {
+  color: #20170d;
+  /* mobile/body */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.32;
+}
+
+.img-how-to-play {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-how-to-play {
+  width: 280px;
+  height: 622px;
+}
+
+@media screen and (min-width: 1024px) {
+  .video-how-to-play {
+    width: 282px;
+    height: 626px;
+  }
+
+  .how-to-play {
+    background: #76a321;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .how-to-play-title {
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-bottom: 48px;
+  }
+
+  .how-to-play-pag {
+    font-size: 20px;
+  }
+
+  .how-to-play-contein {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list-how-to-play {
+    margin-right: 126px;
+  }
+
+  .list-conteiner {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

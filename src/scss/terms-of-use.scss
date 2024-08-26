@@ -138,7 +138,7 @@
   padding-bottom: 60px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .hero {
     padding-top: 160px;
     padding-bottom: 60px;
@@ -165,8 +165,10 @@
   }
 
   .bg-leaves-top {
-    left: 190px;
-    right: 190px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .bg-leaves-left {

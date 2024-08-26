@@ -29,6 +29,7 @@
 
 .green-section {
   background: #bad64a;
+  position: relative;
 }
 
 .terms-of-use-parag {
@@ -69,16 +70,14 @@
 .bg-leaves-left {
   position: absolute;
   left: 0px;
-  margin-top: auto;
-  margin-bottom: auto;
+  top: 59px;
   z-index: 9;
 }
 
 .bg-leaves-right {
   position: absolute;
   right: 0px;
-  margin-top: auto;
-  margin-bottom: auto;
+  top: 59px;
   z-index: 9;
 }
 
@@ -181,6 +180,7 @@
   .terms-of-use-parag {
     font-size: 20px;
   }
+
 
   .license-to-use-the-service-title {
     margin-bottom: 48px;

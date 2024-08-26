@@ -10,6 +10,10 @@
   margin-bottom: 48px;
 }
 
+.how-to-play-contein {
+  align-items: center;
+}
+
 .how-to-play-title {
   color: #492611;
   /* mobile/h2 */
@@ -52,6 +56,7 @@
 .video-how-to-play {
   width: 280px;
   height: 622px;
+  border-radius: 16px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -80,7 +85,7 @@
   .how-to-play-contein {
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .list-how-to-play {

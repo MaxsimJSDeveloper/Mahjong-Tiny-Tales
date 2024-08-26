@@ -56,7 +56,7 @@
   z-index: 1;
   top: 10px;
   right: -11px;
-  width: 132px;
+  width: 100%;
 }
 
 .reviews-subtitle {
@@ -106,7 +106,7 @@
   z-index: 1;
   top: 15px;
   left: 12px;
-  width: 260px;
+  width: 100%;
 }
 
 .first-h {
@@ -140,9 +140,8 @@
   }
 
   .reviews-info {
-    width: 180px;
-    top: 25px;
-    right: -15px;
+    top: 17px;
+    right: -20px;
   }
 
   .reviews-subtitle {
@@ -151,7 +150,6 @@
   }
 
   .reviews-info-text {
-    width: 132px;
     font-size: 16px;
     line-height: 1.25;
   }
@@ -184,12 +182,7 @@
   }
 
   .reviews-info-h {
-    right: 10px;
     top: 20px;
-  }
-
-  .reviews-info-h {
-    top: 20px;
-    right: -20px;
+    left: 20px;
   }
 }

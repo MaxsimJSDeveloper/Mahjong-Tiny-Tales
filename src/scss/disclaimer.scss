@@ -1,0 +1,50 @@
+.disclaimer {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background: #76a321;
+}
+
+.tiles-disclaimer {
+  visibility: hidden;
+  position: absolute;
+}
+
+.disclaimer-pag {
+  color: #20170d;
+  /* mobile/details */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  max-width: 280px;
+}
+
+.disclaimer-spam {
+  font-weight: 600;
+  line-height: 1.83; /* 183.333% */
+}
+
+.disclaimer-cont {
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .disclaimer {
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+
+  .disclaimer-pag {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 996px;
+  }
+
+  .disclaimer-spam {
+    font-weight: 600;
+    line-height: 1.44;
+  }
+}

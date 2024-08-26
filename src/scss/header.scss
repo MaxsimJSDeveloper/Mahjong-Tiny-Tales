@@ -34,7 +34,7 @@
     max-width: 996px;
     height: 80px;
     border-radius: 16px;
-    background: var(--design-beige, #fff9b8);
+    background: $design-beige;
     box-shadow: 0px 8px 0px 0px #937234;
     position: fixed;
     top: 20px;
@@ -63,15 +63,15 @@
     line-height: normal;
     letter-spacing: -0.2px;
     text-transform: capitalize;
-  }
 
-  .header-nav-link-adress:hover,
-  .header-nav-link-adress:focus {
-    border-bottom: 2px solid #20170d;
-  }
+    &:hover {
+      border-bottom: 2px solid #20170d;
+    }
 
-  .header-nav-link-adress:active {
-    color: #937234;
+    &:active {
+      border-bottom: none;
+      color: #937234;
+    }
   }
 
   .header-nav-link {

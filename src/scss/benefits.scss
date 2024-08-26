@@ -47,15 +47,11 @@
   flex-wrap: wrap;
   gap: 16px;
   margin-top: 23px;
+  justify-content: center;
 }
 
 .conteiner-info {
   position: relative;
-}
-
-.conteiner-icon {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media screen and (min-width: 900px) {

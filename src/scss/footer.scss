@@ -22,6 +22,10 @@
   }
 }
 
+.footer-nav-item:active {
+  color: #e6be78;
+}
+
 @media screen and (min-width: 1439px) {
   .footer-wrapper {
     flex-direction: row-reverse;

@@ -4,6 +4,15 @@
   background: #f8a32e;
 }
 
+// .swiper-container {
+//   max-width: 280px;
+// }
+
+.gallery-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .title-gallery {
   color: #492611;
   /* mobile/h2 */
@@ -15,11 +24,6 @@
   letter-spacing: 0.48px;
   text-transform: capitalize;
   margin-bottom: 24px;
-}
-
-.gallery .swiper {
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .conteiner-navigat .button-prev,
@@ -72,6 +76,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  // .swiper-container {
+  //   max-width: 1200px;
+  // }
+
   .title-gallery {
     font-size: 40px;
     font-weight: 400;

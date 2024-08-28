@@ -56,11 +56,22 @@
 .video-how-to-play {
   width: 280px;
   height: 622px;
+}
+
+.conteiner-video {
+  width: 280px;
+  overflow: hidden;
   border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 622px;
 }
 
 @media screen and (min-width: 1024px) {
   .video-how-to-play {
+    width: 282px;
+    height: 626px;
+  }
+  .conteiner-video {
     width: 282px;
     height: 626px;
   }
